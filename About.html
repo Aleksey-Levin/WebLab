@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0" />
+  <link rel="stylesheet" href="galleria-css.css" type="text/css"/>
+  <script src="script.js"></script>
+  <title>Картинная галерея</title>
+</head>
+<body>
+<header class="header">
+  <div class = "NavBar">
+    <div class="Nav" onclick="window.location = './Main.html'">
+      <image id="icon" src="img/icon.PNG" height=50 width=55></image>
+    </div>
+    <a href="./Main.html"><div class="Nav" id="title">GALLERY GILDE</div></a>
+    <a href="./About.html"><div class="Nav" id="about-us">About us</div></a>
+    <div class="Nav" id="cart">
+      <input type="image" src="img/shopping-bag.png" width="20" height="20" alt="Кнопка «input»" onclick="showCart()">
+    </div>
+    <image id="search-icon" src="img/search.png" height="18" width="18"></image>
+    <input id="search-input" placeholder="SEARCH">
+  </div>
+</header>
+<main>
+  <div class="gallery-content">
+    <div class="gallery-information">
+      <a href="./Main.html"><image id="back-arrow" src="img/back.png" height="30" width="30"></image></a>
+      <h2>WHO WE ARE AND WHAT WE DO</h2><br>
+      <p>Pangolin London are sculpture specialists and are one of London's few galleries dedicated to exhibiting sculpture. Representing a solid stable of both established and emerging artists and artist estates, Pangolin London curates a dynamic exhibition programme that focuses on the historic developments of British Sculpture as well as the cutting-edge contemporary.</p>
+      <p>Pangolin London’s affiliation with Europe’s leading sculpture foundry, Pangolin Editions, enables the gallery to offer a unique service to both collector and artist alike with expertise in all areas of the making, commissioning and installation of sculpture. To support sculpture from grass roots, the gallery also organises a bi-annual sculpture residency in collaboration with the PJLF Arts Fund.</p>
+      <p>Based in Kings Cross, Pangolin London not only exhibits sculpture in its sleek and specially designed gallery but also throughout the public spaces of the culture hub Kings Place and along the canal-side</p>
+      <p>Pangolin London is open Monday - Saturday, 10am - 6pm. The gallery is closed on Bank Holidays and between exhibitions</p>
+      <h2>WHAT WE OFFER</h2><br>
+      <ul class="list">
+        <li>Sculpture consultancy</li>
+        <li>Valuation of works and estates.</li>
+        <li>Sourcing and commissioning artworks for public, private or corporate needs.</li>
+        <li>Collection Management.</li>
+        <li>Curation of private and public collections.</li>
+        <li>Managing private loans to museums and institutions.</li>
+        <li>Shipping, framing and installation.</li>
+        <li>Educational art historical talks and lectures on sculpture.</li>
+        <li>Corporate Events Space for Evening Drinks & Presentations</li>
+      </ul>
+
+    </div>
+  </div>
+</main>
+<footer>
+    <div class="info-links" id="for_grid">
+        <a class="link" onclick="window.open('https://www.instagram.com/_sweetest_rat_')">
+            <image class="info-link-item" src="./img/instagram.png" height=30 width=30></image>
+        </a>
+        <a class="link" onclick="window.open('https://www.telegram.com/KarasikVlad')">
+            <image class="info-link-item" src="./img/telegram.png" height=30 width=30></image>
+        </a>
+    </div>
+</footer>
+<div id="foot"></div>
+</body>
+</html>

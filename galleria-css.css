@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 4vw;
+    text-align: left;
+    color: black;
+    font-family: Otto, sans-serif;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 5vw;
+}
+
+p {
+    font-family: Barlow,sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 2rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list {
+    font-family: Barlow,sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 2rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: black;
+}
+
+.pictures-list {
+    list-style: none;
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    justify-items: center;
+    grid-gap: 25px 0;
+}
+
+.picture-container {
+    width: 180px;
+    height: 240px;
+}
+
+.picture {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.pictures-list-item {
+    display: inline-block;
+}
+
+.header {
+    width: 100%;
+    z-index: 100;
+    #position: fixed;
+}
+
+.NavBar {
+    margin-top: 2%;
+    display: flex;
+    margin-bottom: 1.5%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.Nav {
+    color: black;
+    cursor: pointer;
+    font-family: Otto, sans-serif;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.gallery-appearance {
+    width: 100%;
+}
+
+.gallery-information {
+    background: rgba(255, 255, 255, 0.9);
+}
+.gallery-content{
+    background-image: url("img/gallery.jpeg");
+    background-size: cover;
+}
+.link {
+    cursor: pointer;
+}
+
+#search-input {
+    vertical-align: top;
+    margin-top: 8px;
+    background: transparent;
+    width: 80px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid;
+    border-color: gray;
+}
+
+#search-input:focus {
+    border-color: black;
+    outline: none;
+}
+
+#search-icon {
+    vertical-align: top;
+    margin-top: 8px;
+    margin-left: 2%;
+}
+
+#about-us {
+    vertical-align: top;
+    margin-top: 8px;
+    font-weight: 100;
+}
+
+#title {
+    text-align: center;
+    font-size: 1.8rem;
+    vertical-align: middle;
+}
+
+#icon {
+    vertical-align: middle;
+}
+
+#cart {
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+#for_grid {
+    display: grid;
+    grid-template-rows: 30px 30px ;
+    grid-template-columns: 30px 30px;
+    grid-gap: 1vw;
+}
+#for_grid > img {
+    font-size: 5vw;
+    text-align: center;
+}
+
+#foot {
+    position: absolute;
+    right: 5vw;
+}
+
+#back-arrow {
+    margin-left: 5vw;
+    margin-top: 1vw;
+}
+
+.add {
+    cursor: pointer;
+}
+
+.genre {
+    margin-top: 2%;
+    margin-left: 0;
+    color: black;
+    font-family: Otto, sans-serif;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.content {
+    font-family: Barlow, sans-serif;
+    font-weight: 200;
+    text-align: left;
+    color: #010101;
+    font-size: .9em;
+    line-height: 1.7em;
+    margin-top: 2%;
+}
+
+.pictures {
+    margin-bottom: 5vw;
+    margin-left: 0;
+    box-shadow: black;
+    #max-height: 260px;
+    #float: left;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.info-links {
+    #margin-top: 10%;
+    margin-left: 45vw;
+}
+
+.info-link-item {
+    margin-left: 1%;
+}
+
+.PictureName {
+    font-family: Barlow, sans-serif;
+    font-weight: 200;
+}
+
+.Picture {
+    position: relative;
+    top: 0.1vw;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: black 5px;
+    width: 180px;
+    height: 240px;
+}
+
+.Picture:hover {
+    box-shadow:
+            1px 1px #000000,
+            2px 2px #000000,
+            3px 3px #000000,
+            4px 4px #000000,
+            5px 5px #000000;
+    -webkit-transform: translateX(-5px);
+}
+
+.PictureForFree {
+    position: relative;
+    top: 0.1vw;
+    display: inline-block;
+    margin: 1vw;
+    transition: all 0.3s ease;
+    border: black 5px;
+    width: 180px;
+    height: 240px;
+}
+
+.PictureForFree:hover {
+    box-shadow:
+            1px 1px #000000,
+            2px 2px #000000,
+            3px 3px #000000,
+            4px 4px #000000,
+            5px 5px #000000;
+    -webkit-transform: translateX(-5px);
+}
+
+.picture-section{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

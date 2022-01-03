@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <link rel="stylesheet" href="galleria-css.css" type="text/css"/>
+    <link rel="stylesheet" href="galleria-media.css" type="text/css"/>
+    <script src="script.js"></script>
+    <title>Картинная галерея</title>
+</head>
+<body>
+<header class="header">
+    <div class="NavBar">
+        <a class="Nav" href="./Main.html">
+            <image id="icon" src="./img/icon.PNG" height=50 width=55></image>
+        </a>
+        <a href="./Main.html">
+            <div class="Nav" id="title">GALLERY GILDE</div>
+        </a>
+        <a href="./About.html">
+            <div class="Nav" id="about-us">About us</div>
+        </a>
+        <div class="Nav" id="cart">
+            <input type="image" src="img/shopping-bag.png" width="20" height="20" alt="Кнопка «input»"
+                   onclick="showCart()">
+        </div>
+        <image id="search-icon" src="./img/search.png" height="18" width="18"></image>
+        <input id="search-input" placeholder="SEARCH">
+    </div>
+</header>
+<main>
+    <section class="picture-section">
+        <ul class="pictures-list">
+            <li class="pictures-list-item">
+                <div class="picture-container">
+                    <image class="picture" src="./img/green_car.png"></image>
+                </div>
+                <div class="content">
+                    <div class="artist">Vlada Gilde</div>
+                    <div class="title_and_year">Go nowhere, 2021</div>
+                    <div class="material">Oil</div>
+                    <div class="dimensions">30 x 40 cm</div>
+                    <div class="cost">6 800 rub</div>
+                    <a class="add" onclick="addToCart('Go Nowhere')">
+                        <image src="./img/add.png" height="25" width="25"></image>
+                    </a>
+                </div>
+            </li>
+            <li class="pictures-list-item">
+                <div class="picture-container">
+                    <image class="picture" src="./img/down.png"></image>
+                </div>
+                <div class="content">
+                    <div class="artist">Vlada Gilde</div>
+                    <div class="title_and_year">Down, 2021</div>
+                    <div class="material">Oil</div>
+                    <div class="dimensions">24 x 30 cm</div>
+                    <div class="cost">3 690 rub</div>
+                    <a class="add" onclick="addToCart('Down')">
+                        <image src="./img/add.png" height="25" width="25"></image>
+                    </a>
+                </div>
+            </li>
+            <li class="pictures-list-item">
+                <div class="picture-container">
+                    <image class="picture" src="./img/wings.png"></image>
+                </div>
+                <div class="content">
+                    <div class="artist">Arel Edlig</div>
+                    <div class="title_and_year">We have wings, 2021</div>
+                    <div class="material">Oil</div>
+                    <div class="dimensions">40 x 30 cm</div>
+                    <div class="cost">1 rub</div>
+                    <a class="add" onclick="addToCart('We have wings')">
+                        <image src="./img/add.png" height="25" width="25"></image>
+                    </a>
+                </div>
+            </li>
+            <li class="pictures-list-item">
+                <div class="picture-container">
+                    <image class="picture" src="./img/green_car.png"></image>
+                </div>
+                <div class="content">
+                    <div class="artist">Vlada Gilde</div>
+                    <div class="title_and_year">Go nowhere, 2021</div>
+                    <div class="material">Oil</div>
+                    <div class="dimensions">30 x 40 cm</div>
+                    <div class="cost">6 800 rub</div>
+                    <a class="add" onclick="addToCart('Go Nowhere')">
+                        <image src="./img/add.png" height="25" width="25"></image>
+                    </a>
+                </div>
+            </li>
+            <li class="pictures-list-item">
+                <div class="picture-container">
+                    <image class="picture" src="./img/green_car.png"></image>
+                </div>
+                <div class="content">
+                    <div class="artist">Vlada Gilde</div>
+                    <div class="title_and_year">Go nowhere, 2021</div>
+                    <div class="material">Oil</div>
+                    <div class="dimensions">30 x 40 cm</div>
+                    <div class="cost">6 800 rub</div>
+                    <a class="add" onclick="addToCart('Go Nowhere')">
+                        <image src="./img/add.png" height="25" width="25"></image>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <div class="info-links" id="for_grid">
+        <a class="link" onclick="window.open('https://www.instagram.com/_sweetest_rat_')">
+            <image class="info-link-item" src="./img/instagram.png" height=30 width=30></image>
+        </a>
+        <a class="link" onclick="window.open('https://www.telegram.com/KarasikVlad')">
+            <image class="info-link-item" src="./img/telegram.png" height=30 width=30></image>
+        </a>
+    </div>
+</footer>
+<div id="foot"></div>
+</body>
+</html>
