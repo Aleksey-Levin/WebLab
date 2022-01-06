@@ -273,3 +273,6 @@ a{
 #form_delete{
     display: none;
 }
+#form_save{
+    display: none;
+}
