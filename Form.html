@@ -3,35 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
-    <link rel="stylesheet" href="galleria-css.css">
 </head>
 <body>
 <form>
-    <div class="form_week">
-        <p>Выберите тип недели</p>
-        <p><input type="radio" name="p" value="5"> 5ти дневная неделя</p>
-        <p><input type="radio" name="p" value="6"> 6ти дневная неделя</p>
-    </div>
+    <input type="text" id="Check">
+    <button onclick="Checkis()">Add</button>
 </form>
-    <div class="form_maxLessons">
-        <p> Введите максимальное кол-во занятий <input type="text" placeholder="Например, 4"></p>
-    </div>
-<form>
-    <div class="form_language">
-        <p>Выберите язык для создания таблицы</p>
-        <p><input type="radio" name="p" value="rus"> Rus</p>
-        <p><input type="radio" name="p" value="eng"> Eng</p>
-    </div>
-    <button type="button" id="form_create">Создать</button>
-    <button type="button" id="form_delete">Удалить</button>
-    <button type="button" id="form_save">Сохранить</button>
-    <div class="errorText"></div>
-</form>
-<section>
-    <div class="table">
 
-    </div>
-</section>
 </body>
-<script src="form.js" type="module"></script>
 </html>
